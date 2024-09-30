@@ -1,3 +1,30 @@
 header {
-  background-color: #1B1C1C;
+    background-color: #1b1c1c;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    .navbar {
+        .wrapper-logo {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .items {
+            .item {
+                color: #fff;
+                font-family: Jua;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                &:active {
+                    color: #f950ff;
+                }
+            }
+        }
+    }
 }
