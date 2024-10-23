@@ -3,7 +3,7 @@ section {
     height: 50vh;
     place-content: center;
     color: black;
-    background-color: yellow;
+    background-color: linear-gradient(to left, #222222, #888888);
 
     span {
         align-self: center;
@@ -34,5 +34,9 @@ section {
         &:last-child:nth-child(odd) {
             grid-column: span 2;
         }
+    }
+
+    .wide {
+        grid-column: span 2;
     }
 }
